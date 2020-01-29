@@ -15,7 +15,7 @@ module.exports = function (config) {
       'karma-chrome-launcher',
       'karma-coverage',
     ],
-    reporters: ['kjhtml'],
+    reporters: ['kjhtml', 'coverage'],
     colors: true,
     browsers: ['Chrome'],
     singleRun: false,
